@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of an MCA (Master of Computer Applications) student & aspiring Software Engineer / Full Stack Developer. Showcasing projects, technical skills, academics, and certifications.">
+    <title>MCA Student Portfolio | Aspiring Software Engineer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================================================================
+       1. Navigation Bar
+       ========================================================================= -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#home" class="logo">
+                <span class="logo-text">NISHI<span class="logo-highlight">SINGH</span></span>
+            </a>
+
+            <!-- Pure CSS Mobile Hamburger Toggle -->
+            <input type="checkbox" id="nav-toggle" class="mobile-nav-toggle" aria-label="Toggle navigation menu">
+            <label for="nav-toggle" class="mobile-menu-btn" aria-label="Open menu">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </label>
+
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#academics" class="nav-link">Academics</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-cta">
+                <a href="#contact" class="btn btn-primary btn-sm">Get In Touch</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- =======================================================================
+         2. Hero Section
+         ======================================================================= -->
+        <section id="home" class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-status-pill">
+                        <span class="status-dot"></span>
+                        <span>MCA Class of 2028 &bull; Seeking Software Roles</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Nishi Singh</span>
+                    </h1>
+
+                    <div class="hero-subtitle">
+                        <span>Master of Computer Applications Student</span>
+                        <span class="hero-badge-tag">Postgraduate</span>
+                    </div>
+
+                    <p class="hero-description">
+                        Passionate software engineer in training with deep interests in Full-Stack Web Development, Data
+                        Structures & Algorithms, Distributed Systems, and Database Architectures. Bridging core computer
+                        science foundations with modern enterprise application development.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                            </svg>
+                            Explore Projects
+                        </a>
+                        <a href="#academics" class="btn btn-outline">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                            View Academics
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials">
+                        <span class="hero-socials-label">Connect:</span>
+                        <!-- GitHub Icon -->
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                            aria-label="GitHub Profile">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                        </a>
+                        <!-- LinkedIn Icon -->
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                            aria-label="LinkedIn Profile">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                        </a>
+                        <!-- LeetCode / Code Icon -->
+                        <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+                            aria-label="LeetCode Profile">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .666-1.607 2.6 2.6 0 0 1 .388-.334l4.281-4.583 4.908-5.257c.54-.54.54-1.414 0-1.955A1.37 1.37 0 0 0 13.483 0zm-2.88 7.24a1.38 1.38 0 0 0-.978.405l-4.103 4.104a1.38 1.38 0 1 0 1.952 1.952l4.103-4.104a1.38 1.38 0 0 0-.974-2.357zm8.397 5.242h-7.61a1.38 1.38 0 0 0 0 2.76h7.61a1.38 1.38 0 0 0 0-2.76z" />
+                            </svg>
+                        </a>
+                        <!-- Mail Icon -->
+                        <a href="mailto:student.mca@example.com" class="social-icon-btn" aria-label="Send Email">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Hero Right: Dynamic Profile Summary Card -->
+                <div class="hero-card-wrapper">
+                    <div class="hero-card-glow"></div>
+                    <div class="profile-card">
+                        <div class="profile-header">
+                            <div class="profile-avatar-wrap">
+                                <div class="profile-avatar">NS</div>
+                            </div>
+                            <div>
+                                <h2 class="profile-role-title">Nishi Singh</h2>
+                                <p class="profile-role-sub">MCA Postgrad Scholar</p>
+                            </div>
+                        </div>
+
+                        <div class="profile-meta-list">
+                            <div class="profile-meta-item">
+                                <span class="meta-label">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                    </svg>
+                                    Program
+                                </span>
+                                <span class="meta-value">Master of Computer Apps</span>
+                            </div>
+                            <div class="profile-meta-item">
+                                <span class="meta-label">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                    Batch
+                                </span>
+                                <span class="meta-value">2026 - 2028 (Semester 1)</span>
+                            </div>
+                            <div class="profile-meta-item">
+                                <span class="meta-label">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polygon
+                                            points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                        </polygon>
+                                    </svg>
+                                    Current CGPA
+                                </span>
+                                <span class="meta-value meta-badge">8.92 / 10.0</span>
+                            </div>
+                            <div class="profile-meta-item">
+                                <span class="meta-label">
+                                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                                        <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                                    </svg>
+                                    Specialization
+                                </span>
+                                <span class="meta-value">Cloud & Web Engineering</span>
+                            </div>
+                        </div>
+
+                        <div class="profile-card-footer">
+                            <span class="code-snippet">&gt; echo "Ready to Code";</span>
+                            <span style="font-size: 0.8rem; color: var(--accent);">&#9679; Available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         3. Highlights & Quick Stats Bar
+         ======================================================================= -->
+        <section class="stats-bar">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number gradient-text">8.9+</div>
+                        <div class="stat-label">Master's CGPA</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number gradient-text">4+</div>
+                        <div class="stat-label">Major Projects Built</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number gradient-text">300+</div>
+                        <div class="stat-label">DSA Problems Solved</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number gradient-text">5+</div>
+                        <div class="stat-label">Tech Certifications</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         4. About Me Section
+         ======================================================================= -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">About Me</span>
+                    <h2 class="section-title">Bridging Theory & Software Engineering</h2>
+                    <p class="section-subtitle">
+                        An enthusiastic Master of Computer Applications student dedicated to solving real problems with
+                        scalable code, robust databases, and intuitive interfaces.
+                    </p>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>My Journey in Computer Applications</h3>
+                        <p>
+                            I am currently in my final year of the <strong>Master of Computer Applications
+                                (MCA)</strong> degree. My curriculum focuses on high-level computational thinking,
+                            object-oriented software engineering, enterprise web systems, and distributed database
+                            models.
+                        </p>
+                        <p>
+                            Having previously completed my <strong>Bachelor of Computer Applications (BCA)</strong>, I
+                            have spent the last 4+ years deeply immersed in programming languages, data structures,
+                            algorithms, and full-stack development. I enjoy writing clean, maintainable code and
+                            understanding how distributed web applications behave under load.
+                        </p>
+
+                        <div class="about-features-grid">
+                            <div class="feature-box">
+                                <div class="feature-box-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <polyline points="16 18 22 12 16 6"></polyline>
+                                        <polyline points="8 6 2 12 8 18"></polyline>
+                                    </svg>
+                                </div>
+                                <h4>Clean Architecture</h4>
+                                <p>Focusing on MVC, modular components, and SOLID design principles.</p>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="feature-box-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                        <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                        <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                    </svg>
+                                </div>
+                                <h4>Database Design</h4>
+                                <p>Relational modeling, indexing, normalization, and NoSQL collections.</p>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="feature-box-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
+                                        <rect x="9" y="9" width="6" height="6"></rect>
+                                        <line x1="9" y1="1" x2="9" y2="4"></line>
+                                        <line x1="15" y1="1" x2="15" y2="4"></line>
+                                        <line x1="9" y1="20" x2="9" y2="23"></line>
+                                        <line x1="15" y1="20" x2="15" y2="23"></line>
+                                        <line x1="20" y1="9" x2="23" y2="9"></line>
+                                        <line x1="20" y1="14" x2="23" y2="14"></line>
+                                        <line x1="1" y1="9" x2="4" y2="9"></line>
+                                        <line x1="1" y1="14" x2="4" y2="14"></line>
+                                    </svg>
+                                </div>
+                                <h4>Problem Solving</h4>
+                                <p>Active practice in Data Structures, Trees, Graphs, and Dynamic Programming.</p>
+                            </div>
+
+                            <div class="feature-box">
+                                <div class="feature-box-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
+                                <h4>Team Collaboration</h4>
+                                <p>Git workflows, agile sprint methodology, code reviews, and technical documentation.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Academic & Skill Competency Meters -->
+                    <div class="about-skills-card">
+                        <h4>
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 20V10M18 20V4M6 20v-4" />
+                            </svg>
+                            Core Competencies & Proficiency
+                        </h4>
+
+                        <div class="progress-group">
+                            <div class="progress-item">
+                                <div class="progress-info">
+                                    <span>Data Structures & Algorithms (Java / C++)</span>
+                                    <span>88%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width: 88%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <div class="progress-info">
+                                    <span>Full-Stack Web Dev (React / Node / HTML / CSS)</span>
+                                    <span>92%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width: 92%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <div class="progress-info">
+                                    <span>Database Engineering (MySQL / MongoDB / PostgreSQL)</span>
+                                    <span>85%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width: 85%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <div class="progress-info">
+                                    <span>Object-Oriented Design & System Architecture</span>
+                                    <span>84%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width: 84%;"></div>
+                                </div>
+                            </div>
+
+                            <div class="progress-item">
+                                <div class="progress-info">
+                                    <span>Version Control, Git & CI/CD Basics</span>
+                                    <span>90%</span>
+                                </div>
+                                <div class="progress-track">
+                                    <div class="progress-fill" style="width: 90%;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         5. Academics & Education Timeline
+         ======================================================================= -->
+        <section id="academics" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Education</span>
+                    <h2 class="section-title">Academic Journey</h2>
+                    <p class="section-subtitle">
+                        Formal education background and foundational milestones in computer science.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <!-- Item 1: MCA -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon-wrap">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-degree">Master of Computer Applications (MCA)</h3>
+                                <span class="timeline-badge">2026 - 2028 (Pursuing)</span>
+                            </div>
+                            <div class="timeline-institution">Department of Computer Science & Information Technology
+                            </div>
+                            <p class="timeline-details">
+                                CGPA: <strong>8.92 / 10.0</strong> &bull; Postgraduate focus on advanced algorithm
+                                analysis, cloud microservices, software testing, network security, and capstone software
+                                engineering projects.
+                            </p>
+                            <div class="coursework-tags">
+                                <span class="course-tag">Advanced DSA</span>
+                                <span class="course-tag">Cloud Computing</span>
+                                <span class="course-tag">Database Management (RDBMS & NoSQL)</span>
+                                <span class="course-tag">Object-Oriented Software Engg</span>
+                                <span class="course-tag">Web Technologies</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: BCA -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon-wrap">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-degree">Bachelor of Computer Applications (BCA)</h3>
+                                <span class="timeline-badge">2021 - 2024 (Completed)</span>
+                            </div>
+                            <div class="timeline-institution">College of Computer Science & Information Management</div>
+                            <p class="timeline-details">
+                                CGPA: <strong>8.74 / 10.0 (First Class with Distinction)</strong> &bull; Acquired strong
+                                fundamentals in C, C++, Core Java, Relational Databases, Computer Architecture, and
+                                Operating Systems. Appointed as Student Tech Lead for departmental events.
+                            </p>
+                            <div class="coursework-tags">
+                                <span class="course-tag">C / C++ Programming</span>
+                                <span class="course-tag">Core Java & OOPs</span>
+                                <span class="course-tag">Operating Systems</span>
+                                <span class="course-tag">Computer Networks</span>
+                                <span class="course-tag">Data Structures</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: Higher Secondary -->
+                    <div class="timeline-item">
+                        <div class="timeline-icon-wrap">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                            </svg>
+                        </div>
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="timeline-degree">Higher Secondary Certificate (HSC) - Science</h3>
+                                <span class="timeline-badge">2019 - 2021</span>
+                            </div>
+                            <div class="timeline-institution">State Higher Secondary Board</div>
+                            <p class="timeline-details">
+                                Percentage: <strong>86.5%</strong> &bull; Major focus on Mathematics, Physics,
+                                Chemistry, and Vocational Computer Science. Developed foundational interest in
+                                programming through C language and Boolean logic.
+                            </p>
+                            <div class="coursework-tags">
+                                <span class="course-tag">Mathematics</span>
+                                <span class="course-tag">Physics</span>
+                                <span class="course-tag">Computer Science</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         6. Technical Skills Section
+         ======================================================================= -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Technical Arsenal</span>
+                    <h2 class="section-title">Skills & Technologies</h2>
+                    <p class="section-subtitle">
+                        Tools, languages, and frameworks honed during MCA coursework and project building.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Category 1: Programming Languages -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <polyline points="16 18 22 12 16 6"></polyline>
+                                    <polyline points="8 6 2 12 8 18"></polyline>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">Programming Languages</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Java (SE 17/21)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Python 3</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>C++</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>JavaScript (ES6+)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>SQL</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>HTML5 / CSS3</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Frontend Engineering -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">Frontend Development</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>React.js</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Tailwind CSS</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Responsive UI/UX</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>CSS Flexbox & Grid</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Bootstrap 5</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>DOM Manipulation</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Backend & APIs -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                                    <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                                    <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                                    <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">Backend & APIs</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Node.js</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Express.js</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Java Spring Boot
+                                (Basics)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>RESTful API Design</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>JWT & Auth</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>CRUD Architectures</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Databases & Storage -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">Databases & Storage</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>MySQL / MariaDB</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>MongoDB (Mongoose)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>PostgreSQL</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Schema Design &
+                                Indexing</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>ACID Transactions</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 5: DevOps & Tools -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path
+                                        d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">DevOps & Developer Tools</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Git & GitHub</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Postman API Client</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Docker (Containers)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>VS Code & IntelliJ
+                                IDEA</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Linux / Bash Commands</span>
+                        </div>
+                    </div>
+
+                    <!-- Category 6: CS Fundamentals -->
+                    <div class="skill-category-card">
+                        <div class="skill-cat-header">
+                            <div class="skill-cat-icon">
+                                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm1 15h-2v-6h2zm0-8h-2V7h2z">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="skill-cat-title">Computer Science Core</h3>
+                        </div>
+                        <div class="skill-badges-container">
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Data Structures &
+                                Algorithms</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Object-Oriented
+                                Programming</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Operating Systems</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Computer Networks
+                                (TCP/IP)</span>
+                            <span class="skill-pill"><span class="skill-pill-bullet"></span>Software Testing &
+                                SDLC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         7. Featured Projects Section
+         ======================================================================= -->
+        <section id="projects" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Portfolio Showcase</span>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">
+                        Hands-on semester projects and full-stack solutions built during my MCA studies.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1: Campus Placement Management Portal -->
+                    <article class="project-card">
+                        <div class="project-banner">
+                            <div class="project-pattern"></div>
+                            <span class="project-type-tag">MCA Capstone</span>
+                            <div class="project-banner-center">
+                                <div class="project-banner-icon">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                        <circle cx="9" cy="7" r="4"></circle>
+                                        <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                        <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">CampusHire - Placement Automation System</h3>
+                            <p class="project-desc">
+                                A role-based web application tailored for college placement cells to manage drive
+                                registrations, student eligibility filtering, resume shortlisting, and automated
+                                notifications.
+                            </p>
+                            <ul class="project-features-list">
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Role-based dashboards for Students, TPO Admins, and Recruiters
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Instant criteria filter (CGPA, backlogs, department cut-offs)
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    JWT secured authentication & audit logging
+                                </li>
+                            </ul>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">React.js</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">MongoDB</span>
+                                <span class="tech-tag">Tailwind</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn btn-primary btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Live Preview
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Hospital Bed & Resource Management System -->
+                    <article class="project-card">
+                        <div class="project-banner">
+                            <div class="project-pattern"></div>
+                            <span class="project-type-tag">Enterprise Java</span>
+                            <div class="project-banner-center">
+                                <div class="project-banner-icon">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">OmniHealth - Hospital Resource Tracker</h3>
+                            <p class="project-desc">
+                                An end-to-end medical inventory and ICU bed allocation platform designed to assist
+                                emergency staff in managing hospital occupancy and critical medical supplies.
+                            </p>
+                            <ul class="project-features-list">
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Real-time bed availability status across general and ICU wards
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Doctor shift schedule planner and OPD token queue
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Normalized MySQL relational schema with stored procedures
+                                </li>
+                            </ul>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Java</span>
+                                <span class="tech-tag">Spring Boot</span>
+                                <span class="tech-tag">MySQL</span>
+                                <span class="tech-tag">Thymeleaf</span>
+                                <span class="tech-tag">REST API</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn btn-primary btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Live Preview
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Interactive DSA Visualizer -->
+                    <article class="project-card">
+                        <div class="project-banner">
+                            <div class="project-pattern"></div>
+                            <span class="project-type-tag">Algorithm Tool</span>
+                            <div class="project-banner-center">
+                                <div class="project-banner-icon">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z">
+                                        </path>
+                                        <polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline>
+                                        <line x1="12" y1="22.08" x2="12" y2="12"></line>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">AlgoSprint - Interactive Algorithm Visualizer</h3>
+                            <p class="project-desc">
+                                An educational tool built for computer science students to visualize sorting routines
+                                (QuickSort, MergeSort) and pathfinding algorithms (Dijkstra, BFS) with animation
+                                control.
+                            </p>
+                            <ul class="project-features-list">
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Interactive step-by-step playback with speed and size sliders
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Comparative time complexity (Big-O) live metrics display
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Zero external heavy libraries, pure JavaScript canvas rendering
+                                </li>
+                            </ul>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">JavaScript (ES6)</span>
+                                <span class="tech-tag">HTML5 Canvas</span>
+                                <span class="tech-tag">CSS Grid</span>
+                                <span class="tech-tag">Data Structures</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn btn-primary btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Live Preview
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4: CloudDrop File Sharing -->
+                    <article class="project-card">
+                        <div class="project-banner">
+                            <div class="project-pattern"></div>
+                            <span class="project-type-tag">Cloud & Systems</span>
+                            <div class="project-banner-center">
+                                <div class="project-banner-icon">
+                                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-title">CloudDrop - Secure File Sharing Portal</h3>
+                            <p class="project-desc">
+                                A lightweight secure file transfer system with password encryption, auto-expiring links,
+                                and chunked upload handling built to explore distributed file management principles.
+                            </p>
+                            <ul class="project-features-list">
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Encrypted shareable download tokens with expiration limits
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Stream-based file pipeline with automatic garbage collection
+                                </li>
+                                <li>
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2.5">
+                                        <polyline points="20 6 9 17 4 12"></polyline>
+                                    </svg>
+                                    Modern drag & drop frontend with upload progress feedback
+                                </li>
+                            </ul>
+                            <div class="project-tech-stack">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express.js</span>
+                                <span class="tech-tag">Multer</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                                <span class="tech-tag">CSS3</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="#contact" class="btn btn-primary btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                        <polyline points="15 3 21 3 21 9"></polyline>
+                                        <line x1="10" y1="14" x2="21" y2="3"></line>
+                                    </svg>
+                                    Live Preview
+                                </a>
+                                <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                                    class="btn btn-outline btn-sm">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                                        <path
+                                            d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                                    </svg>
+                                    Source Code
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         8. Certifications & Achievements Section
+         ======================================================================= -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Credentials</span>
+                    <h2 class="section-title">Certifications & Honors</h2>
+                    <p class="section-subtitle">
+                        Industry recognized assessments, course completions, and competitive achievements.
+                    </p>
+                </div>
+
+                <div class="cert-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <circle cx="12" cy="8" r="7"></circle>
+                                <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Oracle Certified Associate (OCA)</h3>
+                        <div class="cert-issuer">Oracle University &bull; Java SE</div>
+                        <p class="cert-description">
+                            Demonstrated proficiency in Java object-oriented principles, exception handling, data types,
+                            collections, and multi-threading foundations.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Credential ID: OCA-JV-8941</span>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">AWS Cloud Foundations</h3>
+                        <div class="cert-issuer">Amazon Web Services Academy</div>
+                        <p class="cert-description">
+                            Core comprehension of AWS global infrastructure, S3, EC2 instances, VPC networking, IAM
+                            security, and serverless compute primitives.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Badge: AWS Academy</span>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <polygon
+                                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                </polygon>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">HackerRank 5-Star Problem Solver</h3>
+                        <div class="cert-issuer">HackerRank Gold Badge</div>
+                        <p class="cert-description">
+                            Achieved 5-star gold badge solving complex algorithmic puzzles in Data Structures, Sorting,
+                            Searching, Graphs, and Tree Traversals.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Domain: Problem Solving</span>
+                            <span>Gold Tier</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                                <line x1="3" y1="9" x2="21" y2="9"></line>
+                                <line x1="9" y1="21" x2="9" y2="9"></line>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Full-Stack Web Development</h3>
+                        <div class="cert-issuer">Coursera / University Specialization</div>
+                        <p class="cert-description">
+                            Comprehensive training in front-to-back development: REST APIs, React components, state
+                            management, asynchronous JavaScript, and deployment.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Grade: 96%</span>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Database Design & SQL Specialization</h3>
+                        <div class="cert-issuer">MongoDB University & MySQL Academy</div>
+                        <p class="cert-description">
+                            Covered relational schema optimization, complex joins, subqueries, aggregation pipelines,
+                            indexing strategies, and database ACID properties.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Status: Completed</span>
+                            <span>Verified</span>
+                        </div>
+                    </div>
+
+                    <!-- Cert 6: Hackathon Achievement -->
+                    <div class="cert-card">
+                        <div class="cert-badge-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                                <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                                <path d="M4 22h16"></path>
+                                <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                                <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                                <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="cert-title">Inter-College Hackathon Finalist</h3>
+                        <div class="cert-issuer">State Level Tech Fest</div>
+                        <p class="cert-description">
+                            Secured Top 5 position among 110+ college teams by developing a working prototype of a
+                            community civic complaint tracking web portal within 36 hours.
+                        </p>
+                        <div class="cert-footer">
+                            <span>Award: Finalist Trophy</span>
+                            <span>Team Leader</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======================================================================
+         9. Contact Section
+         ======================================================================= -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect & Collaborate</h2>
+                    <p class="section-subtitle">
+                        Currently open to full-time Software Engineer positions, MCA internships, and development
+                        projects.
+                    </p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info-col">
+                        <h3>Start a Conversation</h3>
+                        <p>
+                            Whether you have an internship opportunity, an entry-level software engineering opening, a
+                            question about my projects, or just want to discuss technology, my inbox is always open.
+                        </p>
+
+                        <div class="contact-cards-list">
+                            <div class="contact-card-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                        </path>
+                                        <polyline points="22,6 12,13 2,6"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h5>Email Address</h5>
+                                    <p><a href="mailto:2628mca0276@kiet.edu">2628mca0276@kiet.edu</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h5>Phone & WhatsApp</h5>
+                                    <p><a href="tel:+919783668179">+91 9783668179</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h5>Location</h5>
+                                    <p>Rajasthan, India (Open to Relocation / Remote)</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-card-item">
+                                <div class="contact-item-icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2">
+                                        <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                                        <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                                    </svg>
+                                </div>
+                                <div class="contact-item-info">
+                                    <h5>Institution</h5>
+                                    <p>KIET Group of Institutions 2026-2028</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Interactive Contact Form -->
+                    <div class="contact-form-card">
+                        <form action="#" method="POST"
+                            onsubmit="event.preventDefault(); alert('Thank you! Your message has been received. I will get back to you shortly.');">
+                            <div class="form-group-row">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Full Name *</label>
+                                    <input type="text" id="name" name="name" class="form-input"
+                                        placeholder="e.g. Aditi Sharma" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email Address *</label>
+                                    <input type="email" id="email" name="email" class="form-input"
+                                        placeholder="e.g. aditi@company.com" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject" class="form-label">Subject *</label>
+                                <input type="text" id="subject" name="subject" class="form-input"
+                                    placeholder="e.g. MCA Internship Opportunity / Project Collaboration" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message" class="form-label">Message *</label>
+                                <textarea id="message" name="message" class="form-textarea"
+                                    placeholder="Write your message or inquiry here..." required></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                                Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- =========================================================================
+       10. Footer
+       ========================================================================= -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#home" class="logo">
+                        <span class="logo-badge">&lt;MCA/&gt;</span>
+                        <span class="logo-text">Student<span class="logo-highlight">Folio</span></span>
+                    </a>
+                    <p>Crafted with HTML5 &amp; CSS3 for Assignment 4 &bull; MCA Portfolio</p>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#home" class="footer-link">Home</a>
+                    <a href="#about" class="footer-link">About</a>
+                    <a href="#academics" class="footer-link">Academics</a>
+                    <a href="#skills" class="footer-link">Skills</a>
+                    <a href="#projects" class="footer-link">Projects</a>
+                    <a href="#contact" class="footer-link">Contact</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div>
+                    &copy; 2026 Nishi Singh. Master of Computer Applications (MCA). All Rights Reserved.
+                </div>
+                <a href="#home" class="back-to-top">
+                    <span>Back to Top</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="18 15 12 9 6 15"></polyline>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
